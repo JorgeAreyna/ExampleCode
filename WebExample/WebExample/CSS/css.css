@@ -1,0 +1,273 @@
+﻿
+
+html
+{
+    min-height: 100%; /* make sure it is at least as tall as the viewport */
+    position: relative;
+}
+
+body
+{
+    height: 100%;
+}
+
+*
+{
+    font-family: Calibri;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.div-principal
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: -1 background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #e0e0e0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e0e0e0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#e0e0e0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#e0e0e0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#e0e0e0 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#e0e0e0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
+}
+
+.div-encabezado
+{
+    text-align: center;
+    background-color: #006699;
+    height: 100px;
+    line-height: 100px;
+    color: White;
+    font-size: 25px;
+    font-weight: bolder;
+    overflow: auto;
+}
+
+.centrado
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+h1, h2, h3, h4, h5, h6
+{
+    color: #006699;
+    font-weight: bolder;
+}
+
+h1
+{
+    font-size: 20px;
+}
+h2
+{
+    font-size: 18px;
+}
+h3
+{
+    font-size: 16px;
+}
+h4
+{
+    font-size: 14px;
+}
+h5
+{
+    font-size: 12px;
+}
+
+
+input[type="submit"], input[type="button"], input[type="file"]
+{
+    background-color: #006699;
+    color: White;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+input[type="text"], input[type="password"]
+{
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+input[type="submit"]:hover
+{
+    cursor: hand;
+    cursor: pointer;
+}
+input[type="button"]:hover
+{
+    cursor: hand;
+    cursor: pointer;
+}
+input[type="file"]:hover
+{
+    cursor: hand;
+    cursor: pointer;
+}
+
+
+
+.menu-derecha
+{
+    position: fixed;
+    top: 110px;
+    right: 10px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.menu-derecha:hover
+{
+    cursor: hand;
+    cursor: pointer;
+}
+.menu-derecha img:hover
+{
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -o-transform: scale(1.3);
+}
+
+.ventana_flotante, .ventana_formulario
+{
+    /*background-image: url("../imagenes/fondo-metallico.jpg");*/
+    background-color: #A4A4A4;
+    border: 1px solid black;
+    
+    
+    
+    overflow: auto;
+    margin-top: 100;
+    margin-left: auto;
+    margin-right: auto;
+    width: 79%;
+    padding: 10px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border: 0px solid #000000;
+}
+
+.ventana_mapa
+{
+    background-image: url("../imagenes/fondo-metallico.jpg");
+    position: fixed;
+    width: 300px;
+    top: 110px;
+    right: 100px;
+    padding: 5px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border: 0px solid #000000;
+}
+
+.boton_cerrar_ventana
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.scroll
+{
+    overflow: scroll;
+    height: 80%;
+}
+
+
+.ventana_flotante span
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.ventana_flotante datagrid
+{
+    margin-bottom: 100;
+}
+
+.datagrid
+{
+    background-color: White;
+    color: #006699;
+}
+
+.datagrid th
+{
+    background-color: #006699;
+    color: White;
+    font-weight: bold;
+}
+
+
+.datagrid tr:hover
+{
+    font-weight: bolder;
+    font-size: xx-large;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.seleccion
+{
+    background-color: #2E9AFE;
+    color: White;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+/*clases auxiliares*/
+.multiple
+{
+}
+
+.servidor
+{
+}
+
+.selector
+{
+}
+
+.entero
+{
+}
+
+.flotante
+{
+}
+
+.letras
+{
+}
+
+.calendario
+{
+}
+
+.divScroll
+{
+    overflow: auto;
+}
+
+.autocomplete
+{
+}
+.confirmar
+{
+}
